@@ -101,7 +101,7 @@ switch (mode) {
 }
 
 if(mode === 'Req') {
-
+   
 } else if (mode === 'Warn') {
     
 } else {
@@ -259,3 +259,12 @@ for(let c = 1; c <= 50; c++) {
 }
 
 console.log(sum)
+
+do {
+
+} while (x < 10) // Do Something While (Condition)
+
+while(x < 10) { // While (Condition) Do Something
+
+}
+
