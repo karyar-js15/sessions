@@ -109,7 +109,7 @@ console.log(carValues)
 let entries = Object.entries(car)
 /*
 [
-    ["brand", "BMW"] // entry,
+    ["brand", "BMW"] // entry, touple (touple)
     ["options", ["heating..", "abs.."] ] // entry,
     ["speed", 50],
     ["owner", { firstName: "...", lastName: "..."} ],
