@@ -128,6 +128,7 @@ function func2() {
         name: "Hadi"
     }
 }
+
 /*
     Object:
         add a property.
