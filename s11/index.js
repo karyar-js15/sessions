@@ -224,3 +224,12 @@ let foundIndex = numbers.findIndex(
 )
 
 
+/*
+    .entries // [ [key,val], [key2, val2],  ]
+    .values // []
+    .keys // []
+
+    let obj = {}
+
+    Object.entries(obj).map().filter().every()
+*/
