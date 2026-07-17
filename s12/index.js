@@ -230,6 +230,3 @@ foo();
         TDZ (Temporal Dead Zone)
 
 */
-// Let          VS     Var          VS         Const
-// Block Scope                                 Block Scope
-
