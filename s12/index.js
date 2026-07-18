@@ -155,7 +155,9 @@ function foo() {
     if(true) {
         let a = 10;
         var d = 50;
-    } else {
+    } 
+    
+    if(true) {
         let b = 20;
         console.log(d)
     }
