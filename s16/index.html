@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- 
+        Without Attr:
+        Parse HTML => 
+            Download ./script.js => 
+                Execute ./script.js =>
+                    Continue Parsing HTML
+
+        Defer Attr:
+            Parse HTML => ... => Complete Parse HTML
+            Download ./script.js => ... => Download Complete
+            Complete Parse HTML && Download Complete => Execute ./script.js
+    
+        Async Attr:
+            Parse HTML => ... 
+            Download ./script.js =>
+                Download Complete =>
+                    Pause Parse HTML =>
+                        Execute ./script.js =>
+                            Continue Parse HTML =>
+    -->
+    <!-- <script src="./script.js"></script> -->
+    <script src="./script.js" defer></script>
+    <script src="./playground.js" defer></script>
+    <!-- <script src="./script.js" async></script> -->
+</head>
+<body>
+    <div>Some Content</div>
+    <!-- <script src="./script.js" ></script> -->
+</body>
+</html>
