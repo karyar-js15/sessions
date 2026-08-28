@@ -90,7 +90,7 @@ function enhancedFetch(url, options) {
                         .then((responseObj) => {
                             resolve({
                                 status: response.status,
-                                body: resopnseObj
+                                body: responseObj
                             })
                         }).catch((error) => {
                             reject({ status: null, body: null, reason: 'Malformed JSON body' })
