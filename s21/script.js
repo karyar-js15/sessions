@@ -23,7 +23,7 @@
 
 
 
-// IP Adress
+// IP Address
 // Port 65500 - 1000, 
 
 // Digikala: 72.20.15.2
